@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ?>
 
-@extends('header')
+@extends('Header')
 
 @section('title')
     Project 3 Home page
