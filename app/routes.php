@@ -65,7 +65,7 @@ Route::post('/user', function()
 	$Email = Input::get('Email');
 	$Phone = Input::get('PhoneNo');
 	$Address = Input::get('Address');
-	require_once base_path().'/vendor/fzaninotto/Faker/src/autoload.php';
+	//require_once base_path().'/vendor/fzaninotto/Faker/src/autoload.php';
 
 	$faker = Faker\Factory::create();
 	if($UserCount < 1 || $UserCount > 10)

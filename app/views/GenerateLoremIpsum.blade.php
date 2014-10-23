@@ -41,7 +41,7 @@ ini_set('display_errors', 1);
 	@foreach($ParagraphText as $title)
 		<div class="well">
 		<p>
-			{{$title}}
+			{{{$title}}}
 		</P>
 	</div>
 	@endforeach
