@@ -12,31 +12,44 @@ ini_set('display_errors', 1);
 @section('content')
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 <div class="container">
-	<div class="navbar-header">
-        <font size="5" color="white">Developers Best Friend</font>
+        <h3><font color="white">Developers Best Friend</font></h3>
 	</div>
 </div>
-</div>
-<div class="jumbotron">
-  <div class="bs-callout bs-callout-info">
-    <h4>Generate Lorem Ipsum</h4>
-    <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry.
-    	In publishing and graphic design, lorem ipsum is a placeholder text commonly used to demonstrate the 
-    	graphic elements of a document or visual presentation. 
-    	By replacing the distraction of meaningful content with filler text of scrambled Latin it allows 
-    	viewers to focus on graphical elements such as font, typography, and layout.
-    	<ul class="nav nav-pills">
-  			<li><a href="/lorem-ipsum">Click here to generate lorem ipsum</a></li>
-		</ul>
-    </p>
-  </div>
-  <div class="bs-callout bs-callout-info">
-    <h4>Generate User</h4>
-    <p>Create random user data for your applications.
-    	<ul class="nav nav-pills">
-  			<li><a href="/user">Click here to generate user</a></li>
-		</ul>
-    </p>
-  </div>
+<div class="container">
+	<div class="jumbotron">
+	    <h2>Generate Lorem Ipsum</h2>
+	    <p><h4> <small><b>Lorem Ipsum </b> is simply dummy text of the printing and typesetting industry. 
+	    	<b>Lorem Ipsum</b> has been the industry's standard dummy text ever since the 1500s, 
+	    	when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+	    	It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+	    	It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+	    	and more recently with desktop publishing software like Aldus PageMaker including versions of <b>Lorem Ipsum</b>
+	    	</small></h4>
+	    	<ul class="nav nav-pills">
+	  			<li><a href="/lorem-ipsum"><span class="glyphicon glyphicon-comment"></span> Generate Lorem Ipsum</a></li>
+			</ul>
+	    </p>
+	  </div>
+	  <div class="jumbotron">
+	    <h2>Generate User</h2>
+	    <p><h4> <small>Create random user data for your applications.</small></h4>
+	    	<ul class="nav nav-pills">
+	  			<li><a href="/user"><span class="glyphicon glyphicon-user"></span> Generate User </a></li>
+			</ul>
+	    </p>
+	  </div>
+	  <div class="jumbotron">
+	    <h2>Generate XKCD Password</h2>
+	    <p><h4> <small>XKCD Password generate technique generates password with common words which are easy to remember with 
+	    	but at the same time nearly impposible for attacker to guess the password. 
+	    	The most important factor in XKCD password is the length of the password and longer passwords are better 
+	    	because each additional character adds much more time to the breaking of the password.
+	    	Complexity does not matter unless you have length in passwords. 
+	    	Complexity is more difficult for humans to remember, but length is not.</small></h4>
+	    	<ul class="nav nav-pills">
+	  			<li><a href="/password"><span class="glyphicon glyphicon-lock"></span> Generate Password </a></li>
+			</ul>
+	    </p>
+	  </div>
 </div>
 @stop

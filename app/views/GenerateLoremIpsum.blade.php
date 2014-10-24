@@ -20,22 +20,30 @@ ini_set('display_errors', 1);
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
-	        <font size="5" color="white">Lorem Ipsum</font>
-	        <a href="/"> Back to Home Page </a>
+	        <font size="6" color="white">Lorem Ipsum</font>
 		</div>
+		<div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/"> <span class="glyphicon glyphicon-home"></span> Go to Home Page </a></li>
+          </ul>
+        </div>
 	</div>
 </div>
 <br><br><br>
 <div class="container">
+	<div class="well well-sm">
 	{{ Form::open(array('url' => 'lorem-ipsum','method' => 'POST')) }}
 
 		{{ Form::label('number_of_paragraph', 'Choose No. of Paragraphs: ',array('class' => 'label label-default')) }}
+		&nbsp;&nbsp;&nbsp;
 		{{ Form::label('MaxValue', 'Max: 10 ',array('class' => 'label label-info')) }}
-		{{ Form::text('number_of_paragraph', Input::get("number_of_paragraph"),array('class' => 'input-group-sm ','id' => 'form-control input-sm')) }}
+		&nbsp;&nbsp;&nbsp;
+		{{ Form::text('number_of_paragraph', Input::get("number_of_paragraph"),array('class' => 'input-group-sm ','id' => 'number_of_paragraph')) }}
 		&nbsp;<span>{{$ValidationMessage}}</span><br><br>
 		{{ Form::submit('Generate Lorem Ipsum',array('class' => 'btn btn-primary'))}}
 		<br><br>
 	{{ Form::close() }}
+</div>
 
 	
 	@foreach($ParagraphText as $title)
