@@ -1,25 +1,28 @@
-## Laravel PHP Framework
+## Dynamic web application Project 3 Readme file.
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+# Developers Best Friend. Generate Lorem-Ipsum and Generate user details tool
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+## Live URL
+<http://P3.jayendran.me>
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Git hub URL:
+https://github.com/jayendranshan/P3
 
-## Official Documentation
+## Description
+This project has 3 tool
+	Tool # 1: 
+		a) Generates Lorem ipsum. The paragraphs are generated using badcow/lorem-ipsum package based on the input given in the foem.
+	Tool # 2:
+		a) Generates user details such as Name, birthdate, email, phone no and address. 
+		b) These details are generated using fzaninotto/faker package for the input given in the form.
+	Tool # 3:
+		a) Generates XKCD Password.
+		b) The password is generated using fzaninotto/faker package.
+		c) The password is based on the input given in the form. This includes number of word, Include a number, Include a special character, Include space/hyphen between words.
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
-### Contributing To Laravel
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+## Note:
+1. The explanation about Lorem ipsum and XKCD password in the home page was taken from internet source.
+2. This project is created using bootstrap framework.
