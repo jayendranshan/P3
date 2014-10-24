@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 @extends('Header')
 
 @section('title')
-    Generate Lorem Ipsum
+    Generate XKCD Password
 @stop
 
 @section('content')

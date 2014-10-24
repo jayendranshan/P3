@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 @extends('Header')
 
 @section('title')
-    Project 3 Home page
+    Developers Best Friend
 @stop
 
 @section('content')
